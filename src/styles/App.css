@@ -1,1 +1,23 @@
+body {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
+.todo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.value-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+}
+
+button {
+    width: fit-content;
+    height: fit-content;
+}

@@ -1,13 +1,12 @@
-
 import React from "react";
-import ToDoList from "./ToDoList"
 import './../styles/App.css';
+import ToDoList from "./ToDoList"
 
 const App = () => {
   return (
     <div>
-        {/* Do not remove the main div */}
-        <ToDoList/>
+      {/* Do not remove the main div */}
+      <ToDoList />
     </div>
   )
 }
