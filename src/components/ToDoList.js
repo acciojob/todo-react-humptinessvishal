@@ -2,8 +2,8 @@ import React, { useState } from "react";
 
 const ToDoList = () => {
 
-    const [value, setValue] = useState("");
     const [todo, setTodo] = useState([]);
+    const [value, setValue] = useState("");
 
     function addItem() {
         setTodo([...todo, value]);
@@ -28,7 +28,7 @@ const ToDoList = () => {
                     todo.map((item, index) => (
                         <li className="value-container">
                             <p>{item}</p>
-                            <button onClick={() => deleteItem(index)}>Delete</button>
+                            <button onClick={() => deleteItem(index)}></button>
                         </li>
                     ))
                 }
